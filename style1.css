@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+.login img{
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+}
+input{
+    height: 50px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 9px 13px 6px 3px rgba(0,0,0,0.17);
+-webkit-box-shadow: 9px 13px 6px 3px rgba(0,0,0,0.17);
+-moz-box-shadow: 9px 13px 6px 3px rgba(0,0,0,0.17);
+}
+button{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: #f54e4e;
+    color: white;
+}
+button:hover{
+    background-color: #ed2626;
+}
+.fa-facebook{
+    font-size: 3rem;
+    color: #3b5998;
+    text-decoration: none;
+}
+.fa-google-plus{
+    font-size: 3rem;
+    color: #db4a39;
+    text-decoration: none;
+}
+.gambar{
+    height: 100%;
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ 
+ .success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
